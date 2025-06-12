@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body{
+
+    background: radial-gradient(circle,black 50%, red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.numero-sorteado{
+
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 5px solid  white; 
+    border-radius: 14px;
+    height: 150px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 47px;
+    color: white;
+    text-align: center;
+
+}
+
+h1, h2{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: white;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 26px;
+
+}
+
+h1{
+
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+input{
+
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 1px solid  rgba(255, 255, 255, 0.2) ; 
+    border-radius: 14px;
+    height: 74px;
+    width: 342px;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: white;
+    opacity: 0.7;
+
+}
+
+.input-min{
+
+    margin-right: 62px;
+
+}
+
+.botoes{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.gerar{
+
+    background-color: #AEC346;
+    box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
+    border-radius: 10px;
+    width: 550px;
+    height: 72px;
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    margin-right: 25px;
+
+}
+
+.resetar{
+
+    background-color:rgb(104, 18, 18);
+    box-shadow: 0px 18px 40px rgba(250, 0, 0, 0.35);
+    border-radius: 10px;
+    width: 150px;
+    height: 72px;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer; 
+
+}
+
+.resetar:hover{
+
+    opacity: 0.7;
+
+}
+
+.resetar:active{
+
+    background-color: red;
+
+}
+
+button:hover{
+
+    opacity: 0.9;
+
+}
+
+button:active{
+
+    opacity: 0.7;
+
+}
+
+footer{
+
+    color: white;
+    font-weight: bold;
+
+}
